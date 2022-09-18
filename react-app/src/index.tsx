@@ -10,7 +10,8 @@ import './index.css';
 // import UseReducerSample from './components/UseReducerSample'
 // import MemoSample1 from './components/MemoSample1'
 // import MemoSample2 from './components/MemoSample2'
-import UseCallbackSample from './components/UseCallbackSample'
+// import UseCallbackSample from './components/UseCallbackSample'
+import UseMemoSample from './components/UseMemoSample'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -22,7 +23,8 @@ root.render(
     {/* <UseReducerSample initialValue={0}/> */}
     {/* <MemoSample1 /> */}
     {/* <MemoSample2 /> */}
-    <UseCallbackSample />
+    {/* <UseCallbackSample /> */}
+    <UseMemoSample />
   </React.StrictMode>
 );
 
