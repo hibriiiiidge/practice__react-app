@@ -8,7 +8,8 @@ import './index.css';
 // import ContainerSample from './components/ContainerSample';
 // import Counter from './components/Counter'
 // import UseReducerSample from './components/UseReducerSample'
-import MemoSample1 from './components/MemoSample1'
+// import MemoSample1 from './components/MemoSample1'
+import MemoSample2 from './components/MemoSample2'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -18,7 +19,8 @@ root.render(
   <React.StrictMode>
     {/* <Counter initialValue={0}/> */}
     {/* <UseReducerSample initialValue={0}/> */}
-    <MemoSample1 />
+    {/* <MemoSample1 /> */}
+    <MemoSample2 />
   </React.StrictMode>
 );
 
