@@ -12,7 +12,8 @@ import './index.css';
 // import MemoSample2 from './components/MemoSample2'
 // import UseCallbackSample from './components/UseCallbackSample'
 // import UseMemoSample from './components/UseMemoSample'
-import UseEffectSample from './components/UseEffectSample'
+// import UseEffectSample from './components/UseEffectSample'
+import UseLayoutEffect from './components/UseLayoutEffect'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -26,7 +27,8 @@ root.render(
     {/* <MemoSample2 /> */}
     {/* <UseCallbackSample /> */}
     {/* <UseMemoSample /> */}
-    <UseEffectSample />
+    {/* <UseEffectSample /> */}
+    <UseLayoutEffect />
   </React.StrictMode>
 );
 
